@@ -12,7 +12,7 @@
 body {
   background: linear-gradient(131deg, rgb(2, 0, 36) 0%, rgb(17, 17, 128) 50%, rgb(0, 12, 56) 100%);
   width: 100%;
-  height: 100vh;
+  height: 200vh;
 }
 
 a:hover {
@@ -33,14 +33,65 @@ header {
   padding: 10px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  z-index: 2;
 }
 header img {
   width: 50px;
+}
+header img:hover {
+  cursor: pointer;
 }
 header .header-links {
   display: flex;
   align-items: center;
   gap: 23px;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.8666666667);
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 100px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  padding: 35px;
+  z-index: 1;
+}
+
+#project {
+  height: 1000px;
+  width: 100%;
+}
+#project h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+#project #resume {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+#project #resume h4 {
+  font-size: 20px;
+  margin: 10px;
+}
+#project #resume p {
+  margin: 10px;
+}
+#project #resume img {
+  width: 150px;
+}
+
+.p-side-line {
+  position: absolute;
+  left: 20px;
+  width: 2px;
+  background: linear-gradient(180deg, rgb(109, 100, 255) 0%, rgb(61, 61, 255) 50%, rgb(64, 83, 153) 100%);
+  height: 1000px;
 }
 
 /*# sourceMappingURL=style.css.map */
