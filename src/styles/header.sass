@@ -22,4 +22,19 @@ header
     & .header-links
         display: flex
         align-items: center
-        gap: 23px
+        gap: 6px
+        font-size: $nav-links-font-size
+        & a
+            padding: 0 6px
+            border-bottom: 2px solid #00000000
+            border-bottom-left-radius: $link-border-radius
+            border-bottom-right-radius: $link-border-radius
+            &:hover
+                color: $main-font-color-hover
+                border-bottom: 2px solid $main-font-color-hover
+        & .secondary-link
+            color: $secondary-font-color
+            font-size: $nav-links-font-size-sec
+            &:hover
+                color: $sec-font-color-hover
+                border-bottom: 2px solid $sec-font-color-hover
