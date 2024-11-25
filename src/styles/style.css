@@ -152,6 +152,16 @@ section {
   justify-self: center;
   align-self: end;
 }
+#content #images img:nth-child(5) {
+  grid-area: h;
+  justify-self: center;
+  align-self: end;
+}
+#content #images img:nth-child(6) {
+  grid-area: g;
+  justify-self: center;
+  align-self: end;
+}
 #content #video {
   width: 480px;
   margin: 0 auto;
