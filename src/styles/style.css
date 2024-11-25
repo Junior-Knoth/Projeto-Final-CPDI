@@ -12,7 +12,7 @@
 }
 
 body {
-  background: linear-gradient(131deg, rgb(2, 0, 36) 0%, rgb(17, 17, 128) 50%, rgb(0, 12, 56) 100%);
+  background: linear-gradient(180deg, rgb(0, 15, 69) 0%, rgb(13, 13, 122) 50%, rgb(0, 15, 69) 100%);
   background-repeat: repeat;
   background-size: cover;
   width: 100%;
@@ -188,14 +188,47 @@ section {
 
 footer {
   width: 100%;
-  height: 120px;
+  height: 150px;
   background-color: rgba(85, 85, 85, 0.0666666667);
   position: relative;
+  background: linear-gradient(180deg, rgb(0, 15, 69) 0%, rgb(13, 13, 122) 50%, rgb(0, 15, 69) 100%);
   bottom: 0px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
+  text-align: center;
   display: flex;
-  gap: 20px;
+  justify-content: space-around;
+}
+footer div {
+  width: 50%;
+  margin: 15px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer div h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+footer div a {
+  margin: 0 10px;
+}
+footer div .bi {
+  font-size: 20px;
+}
+footer nav {
+  border-top: 1px solid #fff;
+  padding-top: 5px;
+  flex-basis: 100%;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+footer nav a:hover {
+  color: #ddd;
 }
 
 /*# sourceMappingURL=style.css.map */
