@@ -34,7 +34,7 @@
         margin: 30px 0 20px
     #images
         display: grid
-        grid-template-areas:"h h h g g g" "h h h g g g" "a a b b c c" "d d b b e e"
+        grid-template-areas:"a a b b c c" "d d b b e e" "h h h g g g" "h h h g g g" 
         justify-content: center
         align-items: start
         padding: 20px
@@ -44,6 +44,7 @@
             width: 100%
             background: linear-gradient(180deg, rgba(109,100,255,1) 0%, rgba(61,61,255,1) 50%, rgba(64,83,153,1) 100%)
             padding: 2px
+            max-height: 100%
         img:nth-child(1)
             grid-area: a
             justify-self: center
@@ -59,13 +60,15 @@
             justify-self: center
             align-self: end
         img:nth-child(5)
-            grid-area: h
-            justify-self: center
-            align-self: end
-        img:nth-child(6)
             grid-area: g
             justify-self: center
             align-self: end
+            width: 50%
+        img:nth-child(6)
+            grid-area: h
+            justify-self: center
+            align-self: end
+            width: 50%
     #video
         width: 480px
         margin: 0 auto
