@@ -201,7 +201,7 @@ section {
 
 footer {
   width: 100%;
-  height: 120px;
+  height: 150px;
   background-color: rgba(85, 85, 85, 0.0666666667);
   position: relative;
   background: linear-gradient(180deg, rgb(0, 15, 69) 0%, rgb(13, 13, 122) 50%, rgb(0, 15, 69) 100%);
@@ -227,6 +227,15 @@ footer div a {
 }
 footer div .bi {
   font-size: 20px;
+}
+footer p {
+  border-top: 1px solid #fff;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  width: 80%;
+  transform: translateX(-50%);
+  padding-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
